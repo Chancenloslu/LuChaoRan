@@ -1,0 +1,17 @@
+.content image{
+  width: 100%;
+  display: block;
+  margin: 30rpx auto
+}
+.detail{
+  margin-bottom: 25rpx;
+  font-size: 30rpx;
+  text-indent: 2em
+}
+.title{
+  font-size: 50rpx;
+  padding-bottom: 40rpx
+}
+.list{
+  margin: 10rpx 20rpx
+}

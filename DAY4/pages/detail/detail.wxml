@@ -1,0 +1,13 @@
+<view class="list">
+<view class="content">
+<view class="title">{{title}}</view>
+<block wx:for="{{content}}" wx:key="index" wx:for-item="con">
+  <block wx:if="{{con.type=='paragraphs'}}">
+    <view class="detail">{{con.content}}</view>
+  </block>
+  <block wx:if="{{con.type=='img'}}">
+    <image src="{{con.url}}" mode="widthFix"></image>
+  </block>
+</block>
+</view>
+</view>

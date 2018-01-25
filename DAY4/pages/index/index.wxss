@@ -1,0 +1,52 @@
+.nav{
+  white-space: nowrap;
+  background: #000;
+  position: fixed;
+  top: 0;
+  border-bottom: 1rpx solid #888
+}
+.nav text{
+  margin-left:35rpx;
+  font-size:35rpx;
+  display: inline-block;
+  color: #fff;
+  padding-bottom: 10rpx
+}
+.nav text:last-child{
+  margin-right: 35rpx
+}
+.nav .active{
+  color: #ff8000;
+  border-bottom: 7rpx solid #ff8000
+}
+.list{
+  margin-top: 70rpx
+}
+.noimage{
+  height: 120rpx;
+  overflow: hidden
+}
+.haveimage{
+  overflow: hidden
+}
+.haveimage .cover{
+  width: 230rpx;
+  height: 150rpx;
+  float: right
+}
+.title1{
+  font-size: 30rpx
+}
+.title2{
+  font-size: 30rpx;
+  float: left;
+  width: 440rpx
+}
+
+.item{
+  border-bottom: 1rpx solid #f0f0f0;
+  padding-top: 20rpx;
+  padding-bottom: 20rpx;
+  padding-left: 30rpx;
+  padding-right: 30rpx;
+}
